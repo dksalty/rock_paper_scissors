@@ -67,5 +67,6 @@ if (humanScore > computerScore) {
    }
    else console.log('Computer wins!');
 }
-playGame();
+
+
 
