@@ -1,3 +1,4 @@
+playGame();
 const words = ['Rock','Paper','Scissors'];
 function playRound(humanChoice, computerChoice) {
 console.log('Round ' + round + ' of 5!');
@@ -67,3 +68,4 @@ if (humanScore > computerScore) {
    }
    else console.log('Computer wins!');
 }
+
