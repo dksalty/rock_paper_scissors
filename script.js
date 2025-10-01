@@ -50,9 +50,9 @@ else if (computerSelection === 'Scissors' && humanSelection === 'Rock') {
 
 round++;
 }
-var humanScore = 0;
-var computerScore = 0;
-var round = 1;
+let humanScore = 0;
+let computerScore = 0;
+let round = 1;
 function playGame() {
  
    for (let i = 0; i < 5; i++) {
@@ -68,6 +68,7 @@ if (humanScore > computerScore) {
    else console.log('Computer wins!');
 }
 playGame();
+
 
 
 
