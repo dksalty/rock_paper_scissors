@@ -1,1 +1,1 @@
-Rock Paper Scissors project that is played in the console for The Odin Project course.
+Rock Paper Scissors project for The Odin Project course.
