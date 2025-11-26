@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      body {
+  display: grid;
+  place-items: center; 
+  min-height: 100vh; 
+  margin: 0; 
+  font-size: 20px;
+  max-width: 200px;
+  margin: 0 0 0 45vw;
+}
+#reset {
+ margin: 300px 0 0 50px
+}
+#round {
+ margin: 0 100px 100px 50px
+ }
+
+      
+    </style>
 </head>
 <body>
+   <div class='container'>
+    <div id="gameEnd"></div>
+    <div id="round">Round 1!</div>
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+    <div id="beats"></div>
+    <div id="score"></div>
+    <div id ='score2'></div>
+    <div id="tie"></div>
+    <button id="reset">Reset</button>
+   </div> 
  <script src="script.js">
 </script> 
 </body>
